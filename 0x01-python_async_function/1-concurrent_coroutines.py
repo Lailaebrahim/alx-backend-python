@@ -19,5 +19,5 @@ async def wait_n(n: int, max_delay: int) -> float:
     You will spawn wait_random n times with the specified max_delay.
     """
     wait_random = __import__('0-basic_async_syntax').wait_random
-    delays = [ await wait_random(max_delay) for i in range(n)]
+    delays = [await wait_random(max_delay) for i in range(n)]
     return delays
