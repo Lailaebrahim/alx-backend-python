@@ -1,1 +1,2 @@
-py37async
+py37async/
+__pycache__/
