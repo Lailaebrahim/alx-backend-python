@@ -13,7 +13,7 @@ import asyncio
 from typing import List
 
 
-async def wait_n(n: int, max_delay: int) -> float:
+async def wait_n(n: int, max_delay: int) -> List[float]:
     """
     Asynchronous coroutine called wait_n that takes in 2
     int arguments (in this order): n and max_delay.
